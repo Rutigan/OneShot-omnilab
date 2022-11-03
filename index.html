@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OneShot</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./src/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./src/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./src/favicon/site.webmanifest">
+  <link rel="stylesheet" href="./styles/welcome.css">
+  <link rel="stylesheet" href="./styles/fonts.css">
+  <link rel="stylesheet" href="./styles/animations.css">
+  <link rel="stylesheet" href="./styles/adaptation.css">
+  
+</head>
+<body>
+  <div class="screen-1-background screen-background">
+    <div class="container screen-1">
+      <header class="header">
+        <div class="header-logo-wrapper">
+          <img src="./src/bulp-solo-fix.png" alt="bulp-on" srcset="">
+          <span class="header-game-name">Oneshot</span>
+        </div>
+        <ul class="header-logo-wrapper">
+          <li class="header-item"><a href="#trailer">Трейлер</a> </li>
+          <li class="header-item"><a href="#mainHero">Главный герой</a> </li>
+          <li class="header-item"><a href="#characters">Персонажи</a> </li>
+        </ul>
+        <div class="menu-small-screen">
+          <img src="./src/icons/menu.svg" id="menuBTN" alt="" srcset="">
+          <ul class="menu-logo-wrapper hide">
+            <li class="menu-item"><a href="#trailer">Трейлер</a> </li>
+            <li class="menu-item"><a href="#mainHero">Главный герой</a> </li>
+            <li class="menu-item"><a href="#characters">Персонажи</a> </li>
+          </ul>
+        </div>
+      </header>
+      <div class="screen-1-main">
+        <div class="screen-1-left">
+          <div class="screen-1-title">
+            <h3>Oneshot</h3>
+            <span>это игра-головоломка  с уникальными игровыми возможностями и уникальной атмосферой.</span>
+          </div>
+          <div class="screen-1-buttons">
+            <a href="https://store.steampowered.com/app/420530/OneShot/" target="_blank" class="btn btn-steam">
+              <img src="./src/icons/steam-icon.svg" alt="steam-icon btn-icon">
+              <span>Игра в steam</span>
+            </a>
+            <a href="https://youtu.be/ctYNBd6t4-g" target="_blank" class="btn btn-youtube btn-icon">
+              <img src="./src/icons/youtube-icon.svg" alt="youtube-icon">
+              <span>Смотреть трейлер</span>
+            </a>
+          </div>
+        </div>
+        <div class="screen-1-right" id="fadeInMainGallery">
+          <img src="./src/main-right-galery.png"  alt="Main Gallery" srcset="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="screen-2-background screen-background">
+    <div class="container container-screen-2">
+      <div class="screen-2-trailer">
+        <iframe id="trailer" width="560" height="315" src="https://www.youtube.com/embed/ctYNBd6t4-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="screen-2-tabs">
+        <div class="tabs-left">
+          <div class="tabs-buttons">
+            <button class="character tab-button tab-active" id="character">Персонажи</button>
+            <button class="pazzel tab-button" id="pazzel">Загадки</button>
+            <button class="location tab-button" id="location">Локации</button>
+            <button class="dialog tab-button" id="dialog">Диалоги</button>
+            <button class="development tab-button" id="develop">Разработка</button>
+          </div>
+          <div class="tabs-content">
+            <h3 id="tab-title">Персонажи</h3>
+            <span id="tab-body">В OneShot множество различных уникальных персонажей на каждой локации. Они имеют свой уникальный дизаин и наделены уникальнымм чертами личности, что заставляет поверить в их реальность</span>
+          </div>
+        </div>
+        <div class="tabs-right">
+          <img id="tabImage" src="./src/glen-characters.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <div class="screen-3-background screen-background">
+    <div class="container screen-3">
+      <div id="mainHero" class="main-character-wrapper">
+        <h2>Главный герой</h2>
+        <div class="niko-description-wrapper">
+          <img src="./src/Niko_faces.webp" alt="Нико" srcset="">
+          <span>Нико — невысокая и миловидная девочка, лицо которой отображает живое обаяние и детскую искренность.
+          </span>
+        </div>
+        <p>Кожа слегка смуглая, глаза большие, с вертикальными чёрными зрачками, и светятся ярко-жёлтым цветом, над ними - изогнутые коричневые брови. Волосы Нико короткие, насыщенного синего цвета. На лоб, выбившись из-под шляпы, мягко спадает небольшая чёлка. Также на голове сбоку есть шесть «отростков», по три с каждой стороны, напоминающих кошачьи усы.
+        </p>
+        <p>Нико носит небольшую шапку светло-коричневого цвета с заострёнными кошачьими ушками сверху, такого же цвета короткое пальто с прямоугольными светло — коричневыми вставками посередине и длинный синий шарф, спадающий до пола, на конце которого висят четыре маленькие кисточки.
+        </p>
+        <a href="https://oneshot.fandom.com/ru/wiki/%D0%9D%D0%B8%D0%BA%D0%BE" target="_blank" class="btn wiki-btn">
+          <img src="./src/icons/fandom-icon.svg"  alt="Fandom icon" srcset="">
+          <span>Официальное Wiki героя</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="screen-4-background screen-background">
+    <div class="container screen-4">
+      <div class="main-character-more">
+        <div class="niko-thing backstory" id="backstory" >
+          <div class="thing__icon-wrapper">
+            <img src="./src/icons/bulp-icon.svg" alt="Лампочка" srcset="">
+          </div>
+          <span>Предыстроия героя</span>
+          
+        </div>
+        <div class="niko-thing personality" id="personality">
+          <div class="thing__icon-wrapper">
+            <img src="./src/Niko_faces.webp" alt="Личность" srcset="">
+          </div>
+          <span>Личность</span>
+        </div>
+        <div class="niko-thing stuff" id="stuff">
+          <div class="thing__icon-wrapper" >
+            <img src="./src/icons/stuff.svg" alt="Мелочи" srcset="">
+          </div>
+          <span>Мелочи</span>
+        </div>
+        <div class="niko-thing sprites" id="sprites">
+          <div class="thing__icon-wrapper" >
+            <img src="./src/Niko_gif_sprite.png" alt="Спрайты Нико" srcset="">
+          </div>
+          <span>Спрайты</span>
+        </div>
+      </div>
+      <dialog id="backstoryDI" class="modal close">
+        <button class="close-modal" id="closeModal">
+          <img src="./src/icons/close.svg" alt="Кнопка закрыть" srcset="">
+        </button>
+        <h3 id="modalTitle">Lorem</h3>
+        <p id="modalBody">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam laudantium aspernatur, ex molestias dolores nobis, a quos quas ipsum repudiandae animi cupiditate ipsam neque sunt cum temporibus natus possimus voluptatibus.
+        </p>
+        <div class="figure-wrapper"></div>
+      </dialog>
+    </div>
+  </div>
+  <div class="screen-5-background screen-background">
+    <div class="container">
+      <div class="hero__wrapper">
+        <div class="hero__controller">
+          <div class="hero__search">
+            <img src="./src/icons/Magnifer.svg" alt="" srcset="">
+            <input type="search" list="heroList" class="search-input" placeholder="Поиск по имени">
+            <datalist id="heroList">
+              <option value="Прототип" class="hero-item">
+                <img src="./src/characters/barrels/Proto1.webp" alt="Прототип1">
+              </option>
+              <option value="Пророк" class="hero-item">
+                <img src="./src/characters/barrels/Prophet.webp" alt="Пророк">
+              </option>
+              <option value="Кельвин" class="hero-item">
+                <img src="./src/characters/barrels/Kelvin.webp" alt="Кельвин">
+              </option>
+              <option value="Синий страж" class="hero-item">
+                <img src="./src/characters/barrels/Blue_gatekeeper.webp" alt="Синий страж">
+              </option>
+              <option value="Сильвер" class="hero-item">
+                <img src="./src/characters/barrels/Silver.webp" alt="Сильвер">
+              </option>
+              <option value="Зелёный страж" class="hero-item">
+                <img src="./src/characters/barrels/Green_gatekeeper.webp" alt="Зелёный страж">
+              </option>
+              <option value="Лодочник" class="hero-item">
+                <img src="./src/characters/barrels/Rowbot.webp" alt="Лодочник">
+              </option>
+              <option value="Красный страж" class="hero-item">
+                <img src="./src/characters/barrels/Red_gatekeeper.webp" alt="Красный страж">
+              </option>
+              <option value="Игрок" class="hero-item">
+                <img src="./src/characters/main-characters/3F3F%3F.webp" alt="Игрок">
+              </option>
+              <option value="Мированя машина" class="hero-item">
+                <img src="./src/characters/main-characters/En_speak.webp" alt="Мировая машина">
+              </option>
+              <option value="Нико" class="hero-item">
+                <img src="./src/characters/main-characters/Niko_83c.webp" alt="Нико">
+              </option>
+              <option value="Алула" class="hero-item">
+                <img src="./src/characters/glen/Alula_speak.webp" alt="Алула">
+              </option>
+              <option value="Каламус" class="hero-item">
+                <img src="./src/characters/glen/Calamus_smile2.webp" alt="Каламус">
+              </option>
+              <option value="Мэгпай" class="hero-item">
+                <img src="./src/characters/glen/Magpie_smile.webp" alt="Мэгпай">
+              </option>
+              <option value="Седрик" class="hero-item">
+                <img src="./src/characters/glen/Cedric_smile.webp" alt="Седрик">
+              </option>
+              <option value="Мэйз" class="hero-item">
+                <img src="./src/characters/glen/Maize_smile2.webp" alt="Мэйз">
+              </option>
+              <option value="Шеферд" class="hero-item">
+                <img src="./src/characters/glen/Shepherd.webp" alt="Шеферд">
+              </option>
+              <option value="Библиотекарь" class="hero-item">
+                <img src="./src/characters/refuge/Bookbot.webp" alt="Библиотекарь">
+              </option>
+              <option value="Джордж" class="hero-item">
+                <img src="./src/characters/refuge/George_faces.webp" alt="Джордж">
+              </option>
+              <option value="Линг" class="hero-item">
+                <img src="./src/characters/refuge/Ling.webp" alt="Линг">
+              </option>
+              <option value="Мэйсон" class="hero-item">
+                <img src="./src/characters/refuge/Mason.webp" alt="Мэйсон">
+              </option>
+              <option value="Фонарьщик" class="hero-item">
+                <img src="./src/characters/refuge/Plight.webp" alt="Фонарьщик">
+              </option>
+              <option value="Ру" class="hero-item">
+                <img src="./src/characters/refuge/Rue_talk.webp" alt="Ру">
+              </option>
+              <option value="Часовщик" class="hero-item">
+                <img src="./src/characters/refuge/Watcher.webp" alt="Часовщик">
+              </option>
+              <option value="Кип" class="hero-item">
+                <img src="./src/characters/tower/Kip.webp" alt="Кип">
+              </option>
+            </datalist>
+          </div>
+          <div class="hero__filter">
+              <h2 id="filterBTN"><span>Сортировать</span>  <img src="./src/icons/Chevron.svg"  class="default rotate" alt="" srcset=""></h2>
+              <ul class="summary-list hide">
+                <li data-f="all" class="summary-item">Все</li>
+                <li data-f="barrelCharacter" class="summary-item">Пустоши</li>
+                <li data-f="glenCharacter" class="summary-item">Глен</li>
+                <li data-f="mainCharacter" class="summary-item">Главные герои</li>
+                <li data-f="refugeCharacter" class="summary-item">Пристанище</li>
+                <li data-f="towerCharacter" class="summary-item">Башня</li>
+              </ul>
+          </div>
+        </div>
+        <div class="hero__list">
+          
+            <img class="barrelCharacter " id="char" src="./src/characters/barrels/Proto1.webp" alt="Прототип">
+          
+          
+            <img class="barrelCharacter " id="char" src="./src/characters/barrels/Prophet.webp" alt="Пророк">
+          
+      
+            <img class="refugeCharacter " id="char" src="./src/characters/barrels/Kelvin.webp" alt="Кельвин">
+          
+            <img class="barrelCharacter " id="char" src="./src/characters/barrels/Blue_gatekeeper.webp" alt="Синий страж">
+          
+            <img class="barrelCharacter " id="char" src="./src/characters/barrels/Silver.webp" alt="Сильвер">
+          
+            <img class="glenCharacter " id="char" src="./src/characters/barrels/Green_gatekeeper.webp" alt="Зелёный страж">
+          
+            <img class="barrelCharacter " id="char" src="./src/characters/barrels/Rowbot.webp" alt="Лодочник">
+          
+            <img class="refugeCharacter " id="char" src="./src/characters/barrels/Red_gatekeeper.webp" alt="Красный страж">
+          
+            <img class="mainCharacter " id="char" src="./src/characters/main-characters/player.webp" alt="Игрок">
+          
+            <img class="mainCharacter " id="char" src="./src/characters/main-characters/En_speak.webp" alt="Мировая машина">
+          
+            <img class="mainCharacter " id="char" src="./src/characters/main-characters/Niko_83c.webp" alt="Нико">
+          
+            <img class="glenCharacter " id="char" src="./src/characters/glen/Alula_speak.webp" alt="Алула">
+          
+            <img class="glenCharacter " id="char" src="./src/characters/glen/Calamus_smile2.webp" alt="Каламус">
+          
+            <img class="glenCharacter " id="char" src="./src/characters/glen/Magpie_smile.webp" alt="Мэгпай">
+          
+            <img class="glenCharacter " id="char" src="./src/characters/glen/Cedric_smile.webp" alt="Седрик">
+          
+            <img class="glenCharacter " id="char" src="./src/characters/glen/Maize_smile2.webp" alt="Мэйз">
+          
+            <img class="glenCharacter " id="char" src="./src/characters/glen/Shepherd.webp" alt="Шеферд">
+          
+            <img class="refugeCharacter " id="char" src="./src/characters/refuge/Bookbot.webp" alt="Библиотекарь">
+          
+            <img class="refugeCharacter " id="char" src="./src/characters/refuge/George_faces.webp" alt="Джордж">
+          
+            <img class="refugeCharacter " id="char" src="./src/characters/refuge/Ling.webp" alt="Линг">
+          
+            <img class="refugeCharacter " id="char" src="./src/characters/refuge/Mason.webp" alt="Мэйсон">
+          
+            <img class="refugeCharacter " id="char" src="./src/characters/refuge/Plight.webp" alt="Фонарьщик">
+          
+            <img class="towerCharacter " id="char" src="./src/characters/refuge/Rue_talk.webp" alt="Ру">
+          
+            <img class="towerCharacter " id="char" src="./src/characters/refuge/Watcher.webp" alt="Часовщик">
+          
+            <img class="towerCharacter " id="char" src="./src/characters/tower/Kip.webp" alt="Кип">
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-menu">
+        <div class="footer__menu-logo">
+          <img src="./src/bulp-solo-fix.png" alt="Солнце" srcset="">
+          <span>OneShot</span>
+        </div>
+        <div class="footer__menu-wrapper">
+          <ul class="header-logo-wrapper">
+            <li class="header-item"><a href="#trailer">Трейлер</a> </li>
+            <li class="header-item"><a href="#mainHero">Главный герой</a> </li>
+            <li class="header-item"><a href="#characters">Персонажи</a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-info">
+        <a href="mailto:rutyganOfficial@gmail.com" class="mail-to">rutyganOfficial@gmail.com</a>
+        <a href="https://www.oneshot-game.com/" class="btn officialOneShot">Официальный сайт игры</a>
+        <a href="https://store.steampowered.com/app/420530/OneShot/" class="footer-steam">
+          <img src="./src/steamimage.png" alt="" srcset="">
+        </a>
+        <a href="https://oneshot.fandom.com/ru/wiki/OneShot_%D0%92%D0%B8%D0%BA%D0%B8" target="_blank" class="btn wiki-btn">
+          <img src="./src/icons/fandom-icon.svg"  alt="Fandom icon" srcset="">
+          <span>Официальное Wiki героя</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="./script/script.js"></script>
+</body>
+</html>

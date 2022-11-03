@@ -1,0 +1,187 @@
+.menu-small-screen {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .screen-1-main {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .header-logo-wrapper {
+    margin-right: 5px;
+  }
+  .screen-2-trailer,
+  .container-screen-2,
+  .container-screen-2 iframe {
+    width: 100%;
+  }
+  .tabs-buttons {
+    width: 100%;
+  }
+  .tab-button {
+    width: 19%;
+  }
+  
+}
+
+@media (max-width: 960px) {
+  .tab-button {
+    width: 19%;
+    font-size: 1.1em;
+  }
+  #tab-title {
+    font-size: 1.5em;
+    font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  }
+  #tab-body {
+    font-size: 1.2em;
+    font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  }
+  .header-item {
+    font-size: 1.4em;
+  }
+  .mail-to {
+    font-size: 16px !important;
+  }
+  .main-character-more {
+    justify-content: space-around;
+  }
+  .footer-info {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .header-logo-wrapper {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .screen-2-tabs {
+    flex-direction: column;
+  }
+  .tabs-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .screen-3 {
+    justify-content: center;
+  }
+  .thing__icon-wrapper {
+    width: 140px;
+  }
+  .main-character-more {
+    flex-wrap: wrap;
+  }
+  ul.header-logo-wrapper {
+    display: none;
+  }
+  .menu-small-screen {
+    display: flex;
+  }
+  .menu-small-screen img {
+    width: 40px;
+    cursor: pointer;
+  }
+  .menu-logo-wrapper {
+    position: absolute;
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    /* margin-right: 200px; */
+    color: #D8D8D8;
+    background-color: #26242436;
+    position: absolute;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+    color: #C1C1C1;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .header {
+    justify-content: center;
+    gap: 100px;
+  }
+}
+@media (max-width: 580px) {
+  .screen-2-trailer,
+  .container-screen-2 {
+    width: 95%;
+  }
+  .container-screen-2 iframe {
+    width: 100%;
+    height: 315px;
+  }
+  .screen-1-right img {
+    width: 400px;
+  }
+  .header {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .screen-1-title {
+    text-align: center;
+    margin: 5px;
+  }
+  .screen-1-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px;
+    gap: 10px;
+    align-items: center;
+  }
+  .btn-youtube, .btn-steam {
+    width: 300px;
+  }
+  .main-character-wrapper {
+    width: 100%;
+  }
+  .main-character-wrapper p {
+    font-size: 0.8em;
+  }
+  #char {
+    width: 60px;
+  }
+  .hero__controller {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+@media (max-width: 380px) {
+  .tabImage {
+    width: 90%;
+  }
+  .tabs-buttons {
+    flex-wrap: wrap;
+    font-size: 0.9em;
+  }
+  .screen-1-right img {
+    width: 300px;
+  }
+  .screen-1-title  {
+    align-items: center;
+  }
+  .screen-1-title span{
+    text-align: center;
+    margin: 5px;
+    font-size: 1.1em;
+    width: 80%;
+  }
+}
+

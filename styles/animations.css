@@ -1,0 +1,38 @@
+.fade-in-start {
+  position: absolute;
+  transition: all 3s ease;
+  opacity: 0.1;
+}
+.fade-in-end {
+  position: relative;
+  transition: all 3s ease;
+  opacity: 1;
+}
+
+.hide {
+  opacity: 1;
+  animation: hide 2s forwards;
+  transition: opacity 1s ease;
+}
+
+@keyframes hide {
+  to {
+    opacity: 0;
+    height: 0;
+    width: 0;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+  }
+}
+
+.rotate {
+  transform: rotate(180deg);
+  animation: rotate 2s forwards;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(180deg);
+  }
+}

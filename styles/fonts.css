@@ -1,0 +1,25 @@
+@import url('./K2D/style.css');
+
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Nunito"),
+       url("./Nunito/Nunito-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "UbuntuMono";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Ubuntu Mono"),
+       url("./UbuntuMono/UbuntuMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "K2D";
+  font-style: normal;
+  font-weight: normal;
+  src: local("K2D"),
+       url("./K2D/K2D-Light.woff") format("truetype");
+}
